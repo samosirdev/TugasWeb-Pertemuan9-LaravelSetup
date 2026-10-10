@@ -7,24 +7,19 @@
 - Git
 
 ## Langkah Instalasi
-1. Clone repository
-```bash
-   git clone https://github.com/samosirdev/TugasWeb-Pertemuan9-Laravel-Setup.git
-   cd TugasWeb-P9-LaravelSetup
-```
-2. Install dependency
+1. Install dependency
 ```bash
    composer install
 ```
-3. Salin file environment
+2. Salin file environment
 ```bash
    copy .env.example .env
 ```
-4. Generate application key
+3. Generate application key
 ```bash
    php artisan key:generate
 ```
-5. Buat database `tugasweb_p9` di phpMyAdmin, lalu atur `.env`:
+4. Buat database `tugasweb_p9` di phpMyAdmin, lalu atur `.env`:
 ```env
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
@@ -33,20 +28,20 @@
    DB_USERNAME=root
    DB_PASSWORD=
 ```
-6. Jalankan migrasi
+5. Jalankan migrasi
 ```bash
    php artisan migrate
 ```
-7. Jalankan server
+6. Jalankan server
 ```bash
    php artisan serve
 ```
-8. Buka http://127.0.0.1:8000
+7. Buka http://127.0.0.1:8000
 
 ## Daftar Route
 | URL | Keterangan |
 |---|---|
-| `/` | Beranda |
+| `/ Beranda` | Beranda |
 | `/about` | Profil |
 | `/contact` | Kontak |
 | `/mahasiswa` | Data dari controller |
@@ -111,8 +106,14 @@ TugasWeb-P9-LaravelSetup/
 | `composer.json` | Daftar dependency PHP |
 
 ## Screenshot
+
+### Tampilan Contact
 ![](gambar/contact.png)
+
+### Tampilan Beranda
 ![](gambar/Beranda.png)
+
+### Tampilan About
 ![](gambar/About.png)
 
 TugasWeb-Pertemuan9-LaravelSetup
