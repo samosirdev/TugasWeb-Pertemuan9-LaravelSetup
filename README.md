@@ -1,11 +1,5 @@
 # TugasWeb-P9-LaravelSetup
 
-## Prasyarat
-- PHP >= 8.2
-- Composer
-- MySQL / XAMPP
-- Git
-
 ## Langkah Instalasi
 1. Install dependency
 ```bash
