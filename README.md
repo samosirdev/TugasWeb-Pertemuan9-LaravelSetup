@@ -115,5 +115,3 @@ TugasWeb-P9-LaravelSetup/
 
 ### Tampilan About
 ![](gambar/About.png)
-
-TugasWeb-Pertemuan9-LaravelSetup
